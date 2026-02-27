@@ -7,7 +7,7 @@
  align-items: center;
  justify-content: center;
  gap: 80px;
- margin: 80px 170px;
+ margin: 80px 20px;
 }
 
 .mywork-title {
@@ -57,7 +57,7 @@
 /* =========================
    RESPONSIVE
 ========================= */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .mywork-container img {
     width: 100%;
     max-width: 900px;
@@ -67,6 +67,17 @@
 @media (max-width: 600px) {
   .mywork-container img {
     height: 220px;
+  }
+} */
+
+@media (max-width: 768px) {
+  .mywork {
+    margin: 60px 20px;
+  }
+
+  .mywork-container img {
+    width: 100%;
+    height: auto;
   }
 }
 

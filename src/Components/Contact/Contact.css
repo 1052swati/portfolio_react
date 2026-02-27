@@ -126,7 +126,7 @@
     transform: translateY(-3px);
     box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
 }
-@media(max-width:768px){
+/* @media(max-width:768px){
 
   .contact{
     gap: 50px;
@@ -170,4 +170,35 @@
   }
   
 }
+ */
 
+
+ @media(max-width:768px){
+
+  .contact{
+    margin: 50px 20px;
+    padding: 0;
+  }
+
+  .contact-title h1{
+    font-size: 40px;
+  }
+
+  .contact-section{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .contact-left h1{
+    font-size: 40px;
+  }
+
+  .contact-right textarea{
+    width: 100%;
+  }
+
+  .contact-submit{
+    width: 100%;
+    text-align: center;
+  }
+}

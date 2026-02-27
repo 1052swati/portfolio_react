@@ -121,7 +121,7 @@
   border-color: #B415FF;
 }
 
-@media(max-width:768px){
+/* @media(max-width:768px){
 
   .hero img{
     width: 220px;
@@ -151,5 +151,35 @@
 
   .hero-resume{
     padding: 18px 45px;
+  }
+} */
+
+@media(max-width:768px){
+
+  .profile-wrapper{
+    width: 220px;
+    height: 220px;
+  }
+
+  .hero h2{
+    width: 95%;
+    font-size: 32px;
+  }
+
+  .hero p{
+    width: 90%;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .hero-action{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero-connect,
+  .hero-resume{
+    width: 80%;
+    text-align: center;
   }
 }
