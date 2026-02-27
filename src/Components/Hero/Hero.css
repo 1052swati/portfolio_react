@@ -130,16 +130,21 @@
    MOBILE RESPONSIVE
 ========================= */
 
-@media(max-width:768px){
+/* =========================
+   HERO MOBILE
+========================= */
+
+@media (max-width: 768px){
 
   .profile-wrapper{
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
   }
 
   .hero h2{
     width: 95%;
-    font-size: 30px;
+    font-size: 28px;
+    line-height: 36px;
   }
 
   .hero h3{
@@ -147,7 +152,7 @@
   }
 
   .hero p{
-    width: 90%;
+    width: 95%;
     font-size: 16px;
     line-height: 26px;
   }
@@ -160,9 +165,10 @@
 
   .hero-connect,
   .hero-resume{
-    width: 85%;
+    width: 90%;
     text-align: center;
-    padding: 15px 20px;
+    padding: 14px 20px;
     font-size: 16px;
   }
+
 }

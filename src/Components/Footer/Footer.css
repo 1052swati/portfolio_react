@@ -130,20 +130,47 @@
   }
 }
 
-@media (max-width: 600px) {
-  .footer {
+
+/* =========================
+   FOOTER MOBILE
+========================= */
+
+@media (max-width: 768px){
+
+  .footer{
     margin: 80px 20px 40px;
   }
 
-  .footer-bottom {
+  .footer-top{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-top-right{
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .footer-email-input{
+    width: 100%;
+  }
+
+  .footer-email-input input{
+    width: 100%;
+  }
+
+  .footer-subscribe{
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-bottom{
     flex-direction: column;
     gap: 20px;
     text-align: center;
   }
 
-  .footer-bottom-right {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
 }
+
+

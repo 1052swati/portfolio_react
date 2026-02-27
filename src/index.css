@@ -11,3 +11,20 @@ body{
 html, body {
   overflow-x: hidden;
 }
+
+/* =========================
+   GLOBAL MOBILE FIX
+========================= */
+
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  overflow-x: hidden;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}

@@ -125,12 +125,28 @@
    RESPONSIVE
 ========================= */
 
-@media (max-width: 768px) {
-  .mywork {
+/* =========================
+   MY WORK MOBILE
+========================= */
+
+@media (max-width: 768px){
+
+  .mywork{
     margin: 80px 20px;
+    gap: 50px;
   }
 
-  .mywork-title h1 {
+  .mywork-title h1{
     font-size: 38px;
   }
+
+  .mywork-container{
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .mywork-container img{
+    height: 220px;
+  }
+
 }

@@ -68,67 +68,60 @@
    MOBILE RESPONSIVE
 ========================= */
 
-@media(max-width:768px){
+/* =========================
+   NAVBAR MOBILE
+========================= */
 
-    /* Prevent horizontal scroll */
-    html, body{
-        overflow-x: hidden;
-    }
+@media (max-width: 768px){
 
-    .navbar{
-        margin: 20px 20px;
-    }
+  .navbar{
+    margin: 20px;
+  }
 
-    .navbar img{
-        height: 70px;
-        width: 180px;
-    }
+  .navbar img{
+    height: 60px;
+    width: 160px;
+  }
 
-    .nav-connect{
-        display: none;
-    }
+  .nav-connect{
+    display: none;
+  }
 
-    /* Open icon */
-    .nav-mob-open{
-        display: block;
-        position: absolute;
-        right: 20px;
-        top: 35px;
-        width: 28px;
-        cursor: pointer;
-    }
+  .nav-mob-open{
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 28px;
+    width: 26px;
+  }
 
-    /* Slide Menu */
-    .nav-menu{
-        position: fixed;
-        flex-direction: column;
-        align-items: flex-start;
-        top: 0;
-        right: -100%;
-        gap: 30px;
-        background-color: #1F0016;
-        width: 80%;
-        max-width: 300px;
-        height: 100vh;
-        z-index: 1000;
-        transition: right 0.4s ease;
-        padding-top: 100px;
-        padding-left: 20px;
-    }
+  .nav-mob-close{
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    width: 24px;
+  }
 
-    .nav-menu li{
-        font-size: 22px;
-        flex-direction: row;
-        gap: 15px;
-    }
+  .nav-menu{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 280px;
+    height: 100vh;
+    background: #1F0016;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 90px;
+    padding-left: 25px;
+    transition: 0.4s ease;
+  }
 
-    /* Close icon */
-    .nav-mob-close{
-        display: block;
-        position: absolute;
-        top: 30px;
-        right: 20px;
-        width: 26px;
-        cursor: pointer;
-    }
+  .nav-menu li{
+    font-size: 20px;
+    flex-direction: row;
+    gap: 15px;
+  }
+
 }
