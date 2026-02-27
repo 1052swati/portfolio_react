@@ -14,13 +14,15 @@ const Navbar = () => {
   const menuRef = useRef();
 
   const openMenu = ()=>{
-    menuRef.current.style.right="0";
-  }
+  menuRef.current.style.right="0";
+  document.body.style.overflow="hidden";
+}
 
   const closeMenu = ()=>{
-    menuRef.current.style.right="-350px";
-  }
-  
+  menuRef.current.style.right="-100%";
+  document.body.style.overflow="auto";
+}
+
   return (
     <div className='navbar'>
         <img src={logo}alt="" />

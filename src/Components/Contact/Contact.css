@@ -1,29 +1,30 @@
+/* =========================
+   CONTACT SECTION
+========================= */
+
 .contact {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 80px 20px;
+  margin: 120px auto;
+  padding: 0 40px;
 }
 
 .contact-title {
   text-align: center;
-  font-size: 60px;
   margin-bottom: 80px;
 }
 
-.contact-title h1{
-  
-    font-size: 80px;
-    font-weight: 600;
-    background: linear-gradient(90deg, #B415FF, #DF8908);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: relative;
-    display: inline-block;
+.contact-title h1 {
+  font-size: 70px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #B415FF, #DF8908);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-
+/* =========================
+   MAIN LAYOUT
+========================= */
 
 .contact-section {
   display: flex;
@@ -32,19 +33,19 @@
   gap: 100px;
 }
 
+/* LEFT SIDE */
 
 .contact-left {
   flex: 1;
 }
 
 .contact-left h1 {
-  font-size: 72px;
+  font-size: 60px;
+  margin-bottom: 20px;
   background: linear-gradient(270deg, #DF8908, #B415FF);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 
 .contact-left p {
   color: #d8d8d8;
@@ -54,53 +55,58 @@
 }
 
 .contact-details {
-  margin-top: 30px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px;
 }
 
-.contact-detail{
+.contact-detail {
   display: flex;
   align-items: center;
   gap: 15px;
   color: #d8d8d8;
+  font-size: 16px;
 }
 
-.contact-detail img{
-  width: 24px;
-  height: 24px;
+.contact-detail img {
+  width: 22px;
+  height: 22px;
 }
 
+/* =========================
+   RIGHT SIDE (FORM)
+========================= */
 
 .contact-right {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  
+  gap: 15px;
 }
 
 .contact-right label {
   color: #d8d8d8;
-  font-size: 18px;
-  display: block;
-  margin-bottom: 8px;
-
+  font-size: 16px;
 }
 
 .contact-right input,
 .contact-right textarea {
   width: 100%;
-  display: block;
-  padding: 18px;
-  border-radius: 6px;
+  padding: 16px;
+  border-radius: 8px;
   border: none;
-  background: #32323c;
+  background: #2c2c36;
   color: white;
-  font-size: 16px;
-  box-sizing: border-box;
-  
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-right input:focus,
+.contact-right textarea:focus {
+  border: 1px solid #B415FF;
+  box-shadow: 0 0 10px rgba(180, 21, 255, 0.4);
 }
 
 .contact-right textarea {
@@ -108,96 +114,64 @@
   resize: none;
 }
 
+/* SUBMIT BUTTON */
+
 .contact-submit {
-  width: fit-content;
+  margin-top: 10px;
   padding: 15px 50px;
   border-radius: 50px;
   border: none;
   background: linear-gradient(270deg, #DF8908, #B415FF);
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   cursor: pointer;
   align-self: flex-start;
+  transition: 0.3s ease;
 }
-.contact-submit:hover{
-    transform: scale(1.1);
-    transform: 0.3s;
-    border: 2px solid white;
-    transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
-}
-/* @media(max-width:768px){
 
-  .contact{
-    gap: 50px;
-    margin: 50px 70px;
-    align-items: start;
-  }
-  .contact-title h1{
-    padding: 0;
-    font-size: 50px;
-    font-weight: 600;
-  }
-  .contact-section{
+.contact-submit:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
+}
+
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+
+@media (max-width: 992px) {
+  .contact-section {
     flex-direction: column;
+    gap: 60px;
+  }
 
+  .contact-left h1 {
+    font-size: 48px;
   }
-  .contact-left h1{
-    font-size: 54px;
-  }
-  .contact-left p{
-    font-size: 18px;
-  }
-  .contact-detail{
-    gap: 30px;
-  }
-  
-  
-  .contact-right label{
-    font-size: 20px;
-  }
-  .contact-right input{
-    width: 100%;
-    font-size: 20px;
-  }
-  .contact-right textarea{
-    width: 95%;
-    font-size: 20px;
-  }
-  .contact-submit{
-    font-size: 20px;
-    padding: 15px 40px;
-  }
-  
 }
- */
 
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
 
- @media(max-width:768px){
-
-  .contact{
-    margin: 50px 20px;
+@media (max-width: 600px) {
+  .contact {
+    margin: 80px 20px;
     padding: 0;
   }
 
-  .contact-title h1{
-    font-size: 40px;
+  .contact-title h1 {
+    font-size: 38px;
   }
 
-  .contact-section{
-    flex-direction: column;
-    gap: 40px;
+  .contact-left h1 {
+    font-size: 36px;
   }
 
-  .contact-left h1{
-    font-size: 40px;
+  .contact-left p {
+    font-size: 16px;
   }
 
-  .contact-right textarea{
-    width: 100%;
-  }
-
-  .contact-submit{
+  .contact-submit {
     width: 100%;
     text-align: center;
   }
