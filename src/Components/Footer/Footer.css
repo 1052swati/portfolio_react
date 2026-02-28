@@ -10,8 +10,8 @@
 } */
 
 .footer{
-    padding: 50px 170px;   /* top-bottom 50px, left-right 170px */
-    margin: 0;             /* margin remove karo */
+    padding: 60px 220px;  
+     margin: 0;            /* 240px / 260px  */
     display: flex;
     flex-direction: column;
     gap: 30px;
