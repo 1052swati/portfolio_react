@@ -1,9 +1,17 @@
 
    FOOTER SECTION
-   .footer{
-    max-width: 1200px;     /* jitna content width chahiye */
+   /* .footer{
+    max-width: 1200px;    
     width: 90%;
-    margin: 50px auto;     /* auto se center ho jayega */
+    margin: 50px auto;    \
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+} */
+
+.footer{
+    padding: 50px 170px;   /* top-bottom 50px, left-right 170px */
+    margin: 0;             /* margin remove karo */
     display: flex;
     flex-direction: column;
     gap: 30px;
