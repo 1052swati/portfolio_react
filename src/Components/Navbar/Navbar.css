@@ -29,6 +29,7 @@
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
+   color: white;
 }
 
 .nav-menu li img{
