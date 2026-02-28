@@ -10,7 +10,7 @@
 } */
 
 .footer{
-    padding: 60px 220px;  
+     padding: 60px 12%;  
      margin: 0;            /* 240px / 260px  */
     display: flex;
     flex-direction: column;
