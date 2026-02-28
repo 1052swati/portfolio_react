@@ -119,7 +119,7 @@ const Navbar = () => {
       </ul>
 
       <div className="nav-connect">
-        <a href="#contact">
+        <a className="nav-class" href="#contact">
           Connect with me
         </a>
       </div>

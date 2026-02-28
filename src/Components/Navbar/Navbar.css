@@ -42,7 +42,11 @@
     text-decoration: none;
     color: white;
 }
+.nav-class{
+   text-decoration: none;
+    color: white;
 
+}
 .nav-connect{
     padding: 30px 45px;
     border-radius: 50px;
