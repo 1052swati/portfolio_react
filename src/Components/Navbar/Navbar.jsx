@@ -72,45 +72,45 @@ const Navbar = () => {
 
       <img src={logo} alt="logo" />
 
-      <img 
-        src={menu_open} 
-        onClick={openMenu} 
-        alt="open menu" 
-        className='nav-mob-open' 
+      <img
+        src={menu_open}
+        onClick={openMenu}
+        alt="open menu"
+        className='nav-mob-open'
       />
 
       <ul ref={menuRef} className="nav-menu">
 
-        <img 
-          src={menu_close} 
-          onClick={closeMenu} 
-          alt="close menu" 
-          className="nav-mob-close" 
+        <img
+          src={menu_close}
+          onClick={closeMenu}
+          alt="close menu"
+          className="nav-mob-close"
         />
 
         <li>
-          <a href="#home" className="anchor-link" onClick={() => handleClick("home")}>
+          <a href="#home" onClick={() => handleClick("home")}>
             Home
           </a>
           {menu === "home" && <img src={underline} alt='' />}
         </li>
 
         <li>
-          <a href="#about" className="anchor-link" onClick={() => handleClick("about")}>
+          <a href="#about" onClick={() => handleClick("about")}>
             About me
           </a>
           {menu === "about" && <img src={underline} alt='' />}
         </li>
 
         <li>
-          <a href="#work" className="anchor-link" onClick={() => handleClick("work")}>
+          <a href="#work" onClick={() => handleClick("work")}>
             My Work
           </a>
           {menu === "work" && <img src={underline} alt='' />}
         </li>
 
         <li>
-          <a href="#contact" className="anchor-link" onClick={() => handleClick("contact")}>
+          <a href="#contact" onClick={() => handleClick("contact")}>
             Contact
           </a>
           {menu === "contact" && <img src={underline} alt='' />}
@@ -119,7 +119,7 @@ const Navbar = () => {
       </ul>
 
       <div className="nav-connect">
-        <a href="#contact" className="anchor-link">
+        <a href="#contact">
           Connect with me
         </a>
       </div>
