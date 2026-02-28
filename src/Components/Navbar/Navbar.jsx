@@ -89,28 +89,28 @@ const Navbar = () => {
         />
 
         <li>
-          <a href="#home" onClick={() => handleClick("home")}>
+          <a className="anchor-link" href="#home" onClick={() => handleClick("home")}>
             Home
           </a>
           {menu === "home" && <img src={underline} alt='' />}
         </li>
 
         <li>
-          <a href="#about" onClick={() => handleClick("about")}>
+          <a className="anchor-link" href="#about" onClick={() => handleClick("about")}>
             About me
           </a>
           {menu === "about" && <img src={underline} alt='' />}
         </li>
 
         <li>
-          <a href="#work" onClick={() => handleClick("work")}>
+          <a className="anchor-link" href="#work" onClick={() => handleClick("work")}>
             My Work
           </a>
           {menu === "work" && <img src={underline} alt='' />}
         </li>
 
         <li>
-          <a href="#contact" onClick={() => handleClick("contact")}>
+          <a className="anchor-link" href="#contact" onClick={() => handleClick("contact")}>
             Contact
           </a>
           {menu === "contact" && <img src={underline} alt='' />}
