@@ -139,6 +139,18 @@
 }
 
 
+.skill-card:hover{
+  transform: scale(1.03);
+  box-shadow: 0 0 35px rgba(180, 21, 255, 0.4);
+}
+
+/* Progress bar hover */
+.skill-card:hover .skill-fill{
+  filter: brightness(1.2);
+  box-shadow: 0 0 12px rgba(223, 137, 8, 0.9);
+}
+
+
 @keyframes fill{
   from{width:0;}
 }
