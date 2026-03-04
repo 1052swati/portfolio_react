@@ -156,8 +156,8 @@
     margin-left: auto;   /* pushes to right */
   }
 
-  /* Side menu */
-  /* .nav-menu{
+  /*Side menu */
+  .nav-menu{
     position: fixed;
     top: 0;
     right: -100%;
@@ -171,18 +171,9 @@
     padding-left: 30px;
     z-index: 100;
     transition: right 0.4s ease;
-  } */
+  }
 
-  .nav-menu{
-  position: fixed;
-  top: 0;
-  right: -300px;   /* hidden by default */
-  width: 250px;
-  height: 100vh;
-  background: #4b002f; /* tumhara maroon color */
-  transition: 0.5s;
-  z-index: 1000;
-}
+  
 
   .nav-menu li{
     font-size: 20px;
@@ -193,7 +184,8 @@
     position: absolute;
     right: 20px;
     top: 20px;
-    width: 30px;
+    width: 22px;
+    height: 22px;
     cursor: pointer;
   }
 }
