@@ -1,20 +1,27 @@
 
    FOOTER SECTION
-   /* .footer{
-    max-width: 1200px;    
-    width: 90%;
-    margin: 50px auto;    \
+  
+
+/* .footer{
+     padding: 60px 12%;  
+     margin: 0;            
     display: flex;
     flex-direction: column;
     gap: 30px;
 } */
-
-.footer{
-     padding: 60px 12%;  
-     margin: 0;            /* 240px / 260px  */
+ .footer{
+    padding: 60px 0;   /* side padding hata do */
+    margin: 0;
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+.footer-top,
+.footer-bottom {
+    max-width: 1350px;
+    margin: auto;   /* 👈 ye center karega */
+    width: 100%;
 }
 .footer-top{
     display: flex;
