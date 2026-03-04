@@ -82,6 +82,10 @@
 
   .navbar{
     margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
   }
 
   .navbar img{
@@ -96,10 +100,10 @@
   .nav-mob-open{
     display: block;
     position: absolute;
-    right: 15px;
+    right: 10px;
     top: 50%;
     transform: translateY(-50%);
-    width: 26px;
+    width: 18px;
   }
 
   .nav-mob-close{
@@ -107,7 +111,7 @@
     position: absolute;
     top: 25px;
     right: 20px;
-    width: 24px;
+    width: 18px;
   }
 
   .nav-menu{
