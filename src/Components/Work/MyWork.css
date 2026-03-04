@@ -147,10 +147,10 @@
     font-size: 38px;
   }
 
-  .mywork-container{
-    grid-template-columns: 1fr;
-    gap: 25px;
-  }
+ .mywork-container img{
+  width: 100%;
+  object-fit: cover;
+}
 
   .mywork-container img{
     height: 220px;
