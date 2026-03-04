@@ -97,7 +97,7 @@
     display: none;
   }
 
-  /* .nav-mob-open{
+  .nav-mob-open{
     display: block;
     position: absolute;
     right: 10px;
@@ -106,13 +106,13 @@
     width: 22px;
     cursor: pointer;
 
-  } */
+  }
 
-   .nav-mob-open{
+   /* .nav-mob-open{
     display: block;
     width: 22px;
     cursor: pointer;
-  }
+  } */
 
   .nav-mob-close{
     display: block;
