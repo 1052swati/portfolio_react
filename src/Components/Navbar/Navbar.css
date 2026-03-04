@@ -184,8 +184,8 @@
   .nav-mob-close{
     display: block;
     position: absolute;
-    right: 35px;
-    top: 35px;
+    right: 20px;
+    top: 20px;
     width: 18px;
     height: 18px;
     cursor: pointer;
