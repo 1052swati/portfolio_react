@@ -27,6 +27,7 @@
   flex-direction: column;
   align-items: center;
   color: white;
+  
 }
 
 .nav-menu li img{
@@ -41,7 +42,11 @@
   color: #ffffff;
   transition: 0.3s;
 }
+.anchor-link {
+  font-size: 20px;
+  font-weight: 500;
 
+}
 .anchor-link:hover{
   color: #ff7edb;
 }
@@ -67,7 +72,10 @@
 .nav-mob-open{
   display: none;
 }
-
+.nav-class{
+  text-decoration: none;
+  color: white;
+}
 /* ================= MOBILE ================= */
 
 /* @media(max-width:768px){

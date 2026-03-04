@@ -22,12 +22,20 @@
   overflow: hidden;
 }
 
-.profile-img {
+/* .profile-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+  animation: fadeEffect 2.5s ease-in-out;
+   background: black;
+} */
+ .profile-img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  animation: fadeEffect 2.5s ease-in-out;
+  object-position: center; /* 👈 is value ko adjust karo */
 }
 
 /* HEADING */

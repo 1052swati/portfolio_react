@@ -2,14 +2,14 @@
 import React, { useState, useEffect } from 'react'
 import './Hero.css'
 
-import profile1 from '../../assets/profile_img1.png'
-import profile2 from '../../assets/profile_img2.png'
-import profile3 from '../../assets/profile_img3.png'
-import profile4 from '../../assets/profile_img4.png'
+import profile11 from '../../assets/profile_img11.png'
+import profile23 from '../../assets/profile_img23.png'
+import profile34 from '../../assets/profile_img34.png'
+import profile44 from '../../assets/profile_img44.png'
 
 const Hero = () => {
 
-  const images = [profile1, profile2, profile3, profile4]
+  const images = [profile11, profile23, profile34, profile44]
 
   const [currentIndex, setCurrentIndex] = useState(0)
 

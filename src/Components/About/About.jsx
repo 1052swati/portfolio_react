@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import about_img from '../../assets/about_img.jpeg'
+import profile_image22 from '../../assets/profile_image22.PNG'
 
 function About() {
   return (
@@ -11,7 +11,7 @@ function About() {
         </div>
         <div className="about-sections">
           <div className="about-left">
-            <img src={about_img} alt="" />
+            <img src={profile_image22} alt="" />
           </div>
           <div className="about-right">
             <div className="about-para">
