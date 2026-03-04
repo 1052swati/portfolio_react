@@ -136,6 +136,11 @@
 
 @media (max-width: 768px){
 
+  .hero{
+    align-items: center;
+    text-align: center;
+  }
+
   .profile-wrapper{
     width: 200px;
     height: 200px;

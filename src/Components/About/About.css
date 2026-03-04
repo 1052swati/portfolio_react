@@ -190,6 +190,10 @@
     font-size: 16px;
     line-height: 28px;
   }
+  .about-left{
+    display: flex;
+    justify-content: center;
+  }
 
 }
 
@@ -200,7 +204,8 @@
 @media (max-width: 768px){
 
   .skill-card{
-    padding: 14px;
+    padding: 18px;
+    border-radius: 12px;
   }
 
   .skill-header{

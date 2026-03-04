@@ -187,5 +187,9 @@
     width: 100%;
     text-align: center;
   }
+  .contact-right input,
+.contact-right textarea{
+  width: 100%;
+}
 
 }
