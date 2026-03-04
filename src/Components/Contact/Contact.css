@@ -251,4 +251,11 @@
         font-size: 18px;
         padding: 15px 40px;
     }
+    .contact-title{
+  margin-bottom: 20px;   /* 80px ki jagah */
+}
+
+.contact-left h1{
+  margin-top: 0;
+}
 }
