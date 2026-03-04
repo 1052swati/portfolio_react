@@ -1,147 +1,70 @@
-/* =========================
-   NAVBAR DESKTOP
-========================= */
-
 .navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 50px 120px;
-    position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 70px;
 }
 
-.navbar img{
-    height: 100px;
-    width: 250px;
-    object-fit: contain;
+.logo-img{
+  height: 100px;
+  width: 120px;
 }
 
 .nav-menu{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 60px;
-    font-size: 20px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  font-size: 18px;
 }
 
 .nav-menu li{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    cursor: pointer;
-   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nav-menu li img{
-   margin: auto;
-   height: 40px;
-   width: 40px;
+  height: 15px;
+  width: 30px;
 }
 
 .anchor-link{
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s;
 }
-.nav-class{
-   text-decoration: none;
-    color: white;
 
+.anchor-link:hover{
+  color: #ff7edb;
 }
+
 .nav-connect{
-    padding: 30px 45px;
-    border-radius: 50px;
-    background: linear-gradient(267deg ,#DA7C25 0.36%, #B923E1 102.06%);
-    font-size: 22px;
-    cursor: pointer;
-    transition: 0.5s;
+  padding: 14px 28px;
+  border-radius: 50px;
+  background: linear-gradient(135deg,#ff7edb,#7f5cff);
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 0 20px rgba(255,126,219,0.4);
+  transition: 0.3s;
 }
 
 .nav-connect:hover{
-    transform: scale(1.05);
+  transform: translateY(-3px);
+  box-shadow: 0 0 30px rgba(255,126,219,0.7);
 }
 
-/* Mobile icons hidden on desktop */
 .nav-mob-close{
-    display: none;
+  display: none;
 }
 
 .nav-mob-open{
-    display: none;
+  display: none;
 }
 
-
-/* =========================
-   MOBILE RESPONSIVE
-========================= */
-
-/* =========================
-   NAVBAR MOBILE
-========================= */
-
-/* @media (max-width: 768px){
-
-
-  .navbar{
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-  }
-
-  .navbar img{
-    height: 60px;
-    width: 160px;
-  }
-
-  .nav-connect{
-    display: none;
-  }
-
-  .nav-mob-open{
-    display: block;
-    position: absolute;
-    right: px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 28px;
-    height: 22px;
-    cursor: pointer;
-
-  }
-
-
-
-  .nav-mob-close{
-    display: block;
-    position: absolute;
-    top: 25px;
-    right: 20px;
-    width: 18px;
-  }
-
-  .nav-menu{
-    position: fixed;
-    top: 0;
-    right: -100%;
-    width: 75%;
-    max-width: 260px;
-    height: 100vh;
-    background: #1F0016;
-    flex-direction: column;
-    gap: 30px;
-    padding: 100px 25px;
-    transition: right 0.4s ease; 
-    z-index: 999;
-  }
-
-  .nav-menu li{
-    font-size: 20px;
-    flex-direction: row;
-    gap: 15px;
-  }
-
-} */
+/* ================= MOBILE ================= */
 
 @media(max-width:768px){
 
