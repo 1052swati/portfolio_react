@@ -125,18 +125,17 @@
 
   .navbar{
     display: flex;
-    flex-direction: row;              /* force row */
     justify-content: space-between;   /* logo left, menu right */
     align-items: center;
-    margin: 15px 20px;
-    padding: 0;
+    padding-left: 10px;
   }
 
   /* LOGO FIX */
   .logo-img{
-    height: 45px !important;
+    height: 38px !important;
     width: auto !important;
-    object-fit: contain;
+  margin-left: -10px;
+
   }
 
   /* Hide desktop button */
@@ -147,8 +146,8 @@
   /* HAMBURGER ICON FIX */
   .nav-mob-open{
     display: block;
-    height: 20px !important;
-    width: 24px !important;
+    height: 25px !important;
+    width: 30px !important;
     cursor: pointer;
     margin-left: auto;   /* pushes to right */
   }
