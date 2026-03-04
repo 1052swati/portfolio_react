@@ -200,6 +200,11 @@ box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
         line-height: 26px;
     }
 
+    .footer-top-left img{
+     height: auto;
+     width: auto;
+    }
+
     .footer-top-right{
         flex-direction: column;
         width: 100%;
