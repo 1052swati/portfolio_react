@@ -163,7 +163,7 @@
    ABOUT MOBILE
 ========================= */
 
-/* @media (max-width: 768px){
+@media (max-width: 768px){
 
   .about{
     margin: 60px 20px;
@@ -194,32 +194,6 @@
     display: flex;
     justify-content: center;
   }
-
-} */
- @media(max-width:768px){
-
-.about{
-  margin: 20px;
-  padding: 35px 20px;
-}
-
-.about-title h1{
-  font-size: 40px;
-}
-
-.about-title img{
-  width: 200px;
-  height: 60px;
-}
-
-.about-para{
-  font-size: 16px;
-  line-height: 26px;
-}
-
-.skill-header p{
-  font-size: 14px;
-}
 
 }
 
