@@ -189,5 +189,6 @@
     width: 10px;
     height: 10px;
     cursor: pointer;
+    opacity: 0.8;
   }
 }
