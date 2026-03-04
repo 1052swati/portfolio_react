@@ -123,18 +123,20 @@
 
 @media (max-width:768px){
 
-  .navbar{
+   .navbar{
     display: flex;
-    justify-content: space-between;   /* logo left, menu right */
+    flex-direction: row;
+    justify-content: space-between;   /* logo left, icon right */
     align-items: center;
-    padding-left: 10px;
+    padding: 0 15px;   /* clean spacing */
+    margin: 10px 0;
   }
 
   /* LOGO FIX */
   .logo-img{
     height: 38px !important;
     width: auto !important;
-  margin-left: -10px;
+    margin-left: 0;
 
   }
 
