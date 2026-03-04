@@ -136,7 +136,7 @@
    MY WORK MOBILE
 ========================= */
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
 
   .mywork{
     margin: 80px 20px;
@@ -155,5 +155,29 @@
   .mywork-container img{
     height: 220px;
   }
+
+} */
+
+
+@media(max-width:768px){
+
+.work{
+  margin: 20px;
+  padding: 35px 20px;
+}
+
+.work-title h1{
+  font-size: 36px;
+}
+
+.work-title img{
+  width: 200px;
+  height: 60px;
+  right: -10px;
+}
+
+.work-container{
+  gap: 20px;
+}
 
 }

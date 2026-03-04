@@ -159,7 +159,8 @@
    CONTACT MOBILE
 ========================= */
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
+
 
   .contact{
     margin: 80px 20px;
@@ -192,4 +193,62 @@
   width: 100%;
 }
 
+} */
+
+
+@media(max-width:768px){
+
+    .contact{
+        gap: 50px;
+        margin: 50px 20px;
+        /* align-items: start; */
+    }
+
+    .contact-title h1{
+        font-size: 40px;
+        padding: 0;
+        align-items: center;
+    }
+
+    .contact-title img{
+        width: 200px;
+        height: 60px;
+        right: -10px;
+    }
+
+    .contact-left h1{
+        font-size: 32px;
+    }
+
+    .contact-left p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .contact-details{
+        font-size: 16px;
+    }
+
+    .contact-section{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contact-right{
+        width: 100%;
+    }
+
+    .contact-right input{
+        width: 100%;
+        height: 55px;
+    }
+
+    .contact-right textarea{
+        width: 100%;
+    }
+
+    .contact-submit{
+        font-size: 18px;
+        padding: 15px 40px;
+    }
 }
