@@ -135,7 +135,7 @@ const Contact = () => {
     <div id='contact' className='contact'>
 
       <div className="contact-title">
-        <h1>Get in Touch</h1>
+        <h1><u>Get in Touch</u></h1>
       </div>
 
       <div className="contact-section">
