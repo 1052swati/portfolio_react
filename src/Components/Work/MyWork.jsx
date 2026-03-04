@@ -45,7 +45,7 @@
 
 import React, { useState, useEffect } from 'react'
 import './MyWork.css'
-import Portfolio_img from '../../assets/Portfolio_img2.png'
+import Portfolio_img2 from '../../assets/Portfolio_img2.png'
 import ToDo_img from '../../assets/ToDo_img.png'
 import Grocery_img from '../../assets/Grocery_img.png'
 
@@ -68,7 +68,7 @@ const MyWork = () => {
       </div>
 
       <div className="mywork-container">
-        <img src={Portfolio_img} alt="Portfolio Project" onClick={() => setSelectedImg(Portfolio_img2)} />
+        <img src={Portfolio_img2} alt="Portfolio Project" onClick={() => setSelectedImg(Portfolio_img2)} />
         <img src={ToDo_img} alt="Todo App" onClick={() => setSelectedImg(ToDo_img)} />
         <img src={Grocery_img} alt="Grocery App" onClick={() => setSelectedImg(Grocery_img)} />
       </div>
