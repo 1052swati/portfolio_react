@@ -5,7 +5,7 @@
   margin: 25px 70px;
 }
 
-.navbar img{
+.logo img{
     height: 100px;
     width: 250px;
     object-fit: contain;
@@ -123,38 +123,29 @@
 
 @media (max-width:768px){
 
-   .navbar{
+  .navbar{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;   /* logo left, icon right */
+    justify-content: space-between;
     align-items: center;
-    padding: 0 15px;   /* clean spacing */
-    margin: 10px 0;
+    margin: 10px 15px;
   }
 
-  /* LOGO FIX */
   .logo-img{
-    height: 38px !important;
-    width: auto !important;
-    margin-left: 0;
-
+    height: 38px;
+    width: auto;
   }
 
-  /* Hide desktop button */
   .nav-connect{
     display: none;
   }
 
-  /* HAMBURGER ICON FIX */
   .nav-mob-open{
     display: block;
-    height: 25px !important;
-    width: 30px !important;
+    height: 22px;
+    width: 26px;
     cursor: pointer;
-    margin-left: auto;   /* pushes to right */
   }
 
-  /* Side menu */
   .nav-menu{
     position: fixed;
     top: 0;
@@ -169,10 +160,6 @@
     padding-left: 30px;
     z-index: 100;
     transition: right 0.4s ease;
-  }
-
-  .nav-menu li{
-    font-size: 20px;
   }
 
   .nav-mob-close{
