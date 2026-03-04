@@ -188,10 +188,8 @@
     text-align: center;
   }
   .contact-right input,
-.contact-right textarea {
+.contact-right textarea{
   width: 100%;
-  padding: 14px;
-  margin-bottom: 15px;
 }
 
 }
