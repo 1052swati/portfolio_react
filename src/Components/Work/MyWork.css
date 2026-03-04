@@ -152,7 +152,8 @@
   object-fit: cover;
 }
 
- .mywork-container{
-  grid-template-columns: 1fr;
-}
+  .mywork-container img{
+    height: 220px;
+  }
+
 }
