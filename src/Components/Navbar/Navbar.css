@@ -97,13 +97,21 @@
     display: none;
   }
 
-  .nav-mob-open{
+  /* .nav-mob-open{
     display: block;
     position: absolute;
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
-    width: 18px;
+    width: 22px;
+    cursor: pointer;
+
+  } */
+
+   .nav-mob-open{
+    display: block;
+    width: 22px;
+    cursor: pointer;
   }
 
   .nav-mob-close{
@@ -118,14 +126,15 @@
     position: fixed;
     top: 0;
     right: -100%;
-    width: 80%;
-    max-width: 280px;
+    width: 75%;
+    max-width: 260px;
     height: 100vh;
     background: #1F0016;
     flex-direction: column;
     gap: 30px;
-    padding-top: 90px;
-    padding-left: 25px;
+    /* padding-top: 90px;
+    padding-left: 25px; */
+    padding: 100px 25px;
     transition: right 0.4s ease; 
     z-index: 999;
   }
