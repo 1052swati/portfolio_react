@@ -1,4 +1,4 @@
-.navbar{
+/* .navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,6 +9,22 @@
     height: 100px;
     width: 250px;
     object-fit: contain;
+} */
+ .navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 70px;
+}
+
+/* REMOVE .navbar img completely */
+
+/* ADD THIS */
+.logo-img{
+  height: 70px;     /* desktop size */
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .nav-menu{
