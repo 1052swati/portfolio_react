@@ -96,8 +96,9 @@
   .nav-mob-open{
     display: block;
     position: absolute;
-    right: 20px;
-    top: 28px;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
     width: 26px;
   }
 
