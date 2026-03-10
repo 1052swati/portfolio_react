@@ -125,11 +125,11 @@ const Footer = () => {
       <hr />
 
       <div className='footer-bottom'>
-        <p className='footer-bottom-right'>
+        <p className='footer-bottom-left'>
           © 2025 Swati Vagare. All rights reserved.
         </p>
 
-        <div className="footer-bottom-left">
+        <div className="footer-bottom-right">
           <p onClick={()=> handleOpen("Terms of Service")}>📄Terms of Service</p>
           <p onClick={()=> handleOpen("Privacy Policy")}>🔐Privacy Policy</p>
 
