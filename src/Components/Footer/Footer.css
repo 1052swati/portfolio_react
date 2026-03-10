@@ -291,6 +291,9 @@ box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
     .footer-bottom-left{
         font-size: 14px;
     }
+    .anchor-link{
+        font-size: 16px;
+    }
 
 }
 
