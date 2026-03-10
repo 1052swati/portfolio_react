@@ -286,15 +286,16 @@ box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
         flex-direction: column;
         gap: 10px;
         font-size:14px ;
+        order: 1;
         
     }
 
     .footer-bottom-left{
-        font-size: 14px;
-        
+        font-size: 12px;
+        order: 2;
     }
     .anchor-link{
-        font-size: 16px;
+        font-size: 14px;
     }
 
 }
