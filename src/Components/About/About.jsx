@@ -15,13 +15,13 @@ function About() {
           </div>
           <div className="about-right">
             <div className="about-para">
-              <p> 🚀 As a Frontend Developer fresher, I focus on building responsive, accessible, and user-centric web applications with attention to clean design and usability.</p>
+              <p>  As passionate a Frontend Developer, I focus on building responsive, accessible, and user-centric web applications with attention to clean design and usability.</p>
 
-<p>💻 I have a strong foundation in HTML, CSS, JavaScript, and React.js, and I enjoy creating interactive interfaces by transforming ideas into real, functional web experiences.</p>
+<p> I have a strong foundation in HTML, CSS, JavaScript, and React.js, and I enjoy creating interactive interfaces by transforming ideas into real, functional web experiences.</p>
 
-<p>🎓 I am a Certified Full Stack Web Developer from Edureka, with practical experience gained through projects,UI development, and collaborative learning environments.</p>
+<p> I am a Certified Full Stack Web Developer from Edureka, with practical experience gained through projects,UI development, and collaborative learning environments.</p>
 
-<p>🌟 Driven by design precision, performance, and continuous learning, I am eager to grow as a developer and contribute to meaningful projects. </p>
+<p> Driven by design precision, performance, and continuous learning, I am eager to grow as a developer and contribute to meaningful projects. </p>
             </div>
            
 
