@@ -145,8 +145,8 @@
 
   /* LOGO FIX */
   .logo-img{
-    height: 60px !important;
-    width: 160px !important;
+    height: 65px !important;
+    width: auto !important;
     object-fit: contain;
   }
 
