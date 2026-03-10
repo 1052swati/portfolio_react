@@ -294,7 +294,7 @@ box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
 
     .footer-bottom-left{
         font-size: 14px;
-        margin-bottom: 0;
+        margin-bottom: 5px;
         order: 2;
     }
     .anchor-link{
