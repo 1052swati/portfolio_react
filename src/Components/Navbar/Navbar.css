@@ -201,11 +201,14 @@
     opacity: 0.8;
   } */
    .nav-mob-close{
-  height: 20px;
-  width: 20px;
-  object-fit: contain;
-  position: relative;
-  top: 20px;
-  right: 20px;
+    display: block;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    cursor: pointer;
+    opacity: 0.8;
 }
 }
