@@ -225,7 +225,7 @@ box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
 @media (max-width:768px){
 
     .footer{
-        margin: 50px 20px;
+        margin:  40px 20px 10px 20px;
         gap: 10px;
     }
 
@@ -279,7 +279,7 @@ box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
     .footer-bottom{
         flex-direction: column;
         align-items: flex-start;
-        gap: 10px;
+        gap: 5px;
     }
 
     .footer-bottom-right{
@@ -287,6 +287,7 @@ box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
         gap: 10px;
         font-size:16px ;
         order: 1;
+        margin-bottom: 0;
         
     }
 
