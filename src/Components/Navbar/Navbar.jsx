@@ -70,7 +70,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
 
-      <img className="logo img"src={logo} alt="logo" />
+      <img className="logo-img"src={logo} alt="logo" />
 
       <img
         src={menu_open}
