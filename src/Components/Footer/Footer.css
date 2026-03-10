@@ -285,7 +285,7 @@ box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
     .footer-bottom-right{
         flex-direction: column;
         gap: 10px;
-        font-size:16px ;
+        font-size:14px ;
     }
 
     .footer-bottom-left{
