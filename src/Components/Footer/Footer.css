@@ -81,29 +81,14 @@
     background: #32323B;
     padding-right: 80px;
 }
-.footer-email-input input{
-    outline: none;
-    border: none;
-    background: transparent;
-    color: #a0a0a0;
-    font-family: outfit;
-    font-size: 18px;
-}
-.footer-subscribe{
-    font-size: 20px;
-    padding: 22px 50px;
-    border-radius: 50px;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
-    cursor: pointer;
-    transition: 0.3s;
-}
+
 
 .footer-bottom{
     display: flex;
     justify-content: space-between;
     font-size: 18px;
 }
-.footer-bottom-right{
+.footer-bottom-left{
     display: flex;
     gap: 50px;
     margin-bottom: 50px;
@@ -112,26 +97,17 @@
 
 
 
-.footer-bottom-right .anchor-link {
+.footer-bottom-left .anchor-link {
   color: white;
   text-decoration: none;
   cursor: pointer;
 }
 
-.footer-bottom-right .anchor-link:hover {
+.footer-bottom-left .anchor-link:hover {
   text-decoration: underline;
 }
 
-.footer-email-input:hover{
-    border: 2px solid white;
-}
-.footer-subscribe:hover{
-transform: scale(1.1);
-transition: 0.3s;
-border: 2px solid white;
-transform: translateY(-3px);
-box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
-}
+
 
 .footer hr{
     border: 1px solid #2a2a2a;
@@ -282,13 +258,13 @@ box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
         gap: 15px;
     }
 
-    .footer-bottom-right{
+    .footer-bottom-left{
         flex-direction: column;
         gap: 10px;
         font-size:14px ;
     }
 
-    .footer-bottom-left{
+    .footer-bottom-right{
         font-size: 14px;
     }
     .anchor-link{
