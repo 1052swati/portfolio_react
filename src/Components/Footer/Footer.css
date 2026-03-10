@@ -1,14 +1,6 @@
 
    FOOTER SECTION
   
-
-/* .footer{
-     padding: 60px 12%;  
-     margin: 0;            
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-} */
  .footer{
     padding: 60px 0;   /* side padding hata do */
     margin: 0;
@@ -73,30 +65,6 @@
   transform: scale(1.1);
 }
 
-.footer-email-input{
-    display: flex;
-    gap: 30px;
-    padding: 20px 30px;
-    border-radius: 50px;
-    background: #32323B;
-    padding-right: 80px;
-}
-.footer-email-input input{
-    outline: none;
-    border: none;
-    background: transparent;
-    color: #a0a0a0;
-    font-family: outfit;
-    font-size: 18px;
-}
-.footer-subscribe{
-    font-size: 20px;
-    padding: 22px 50px;
-    border-radius: 50px;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
-    cursor: pointer;
-    transition: 0.3s;
-}
 
 .footer-bottom{
     display: flex;
@@ -122,16 +90,6 @@
   text-decoration: underline;
 }
 
-.footer-email-input:hover{
-    border: 2px solid white;
-}
-.footer-subscribe:hover{
-transform: scale(1.1);
-transition: 0.3s;
-border: 2px solid white;
-transform: translateY(-3px);
-box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
-}
 
 .footer hr{
     border: 1px solid #2a2a2a;
@@ -154,73 +112,6 @@ box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
     gap: 50px;
   }
 }
-
-
-
-
-
-
-/* @media (max-width:768px){
-
-    .footer{
-        margin: 50px 20px;
-        gap: 40px;
-    }
-
-    .footer-top{
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 30px;
-    }
-
-    .footer-top-left p{
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-    .footer-top-left img{
-     height: 60px;
-     width: 160px;
-    }
-
-    .footer-top-right{
-        flex-direction: column;
-        width: 100%;
-        gap: 15px;
-    }
-
-    .footer-email-input{
-        width: 100%;
-        padding: 12px 20px;
-    }
-
-    .footer-email-input input{
-        width: 100%;
-    }
-
-    .footer-subscribe{
-        width: 100%;
-        text-align: center;
-        font-size: 18px;
-        padding: 14px;
-    }
-
-    .footer-bottom{
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 15px;
-    }
-
-    .footer-bottom-right{
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .footer-bottom-left{
-        font-size: 14px;
-    }
-
-} */
 
 @media (max-width:768px){
 
@@ -301,8 +192,7 @@ box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
         font-size: 16px;
     }
     .footer hr{
-    margin: 10px 0;   /* divider gap kam */
-}
+    margin: 10px 0;   
 
   .wp-btn{
     width: 90%;
