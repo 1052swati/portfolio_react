@@ -226,7 +226,7 @@ box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
 
     .footer{
         margin: 50px 20px;
-        gap: 40px;
+        gap: 10px;
     }
 
     .footer-top{
@@ -285,17 +285,17 @@ box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
     .footer-bottom-right{
         flex-direction: column;
         gap: 10px;
-        font-size:14px ;
+        font-size:16px ;
         order: 1;
         
     }
 
     .footer-bottom-left{
-        font-size: 12px;
+        font-size: 14px;
         order: 2;
     }
     .anchor-link{
-        font-size: 14px;
+        font-size: 16px;
     }
 
 }
