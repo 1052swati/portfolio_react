@@ -40,7 +40,7 @@ const Hero = () => {
       </h2>
 
       <h3>
-        Frontend Developer | React Enthusiast
+        FullStack Developer | React Enthusiast
       </h3>
 
       <p>

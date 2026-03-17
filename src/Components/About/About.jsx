@@ -15,7 +15,7 @@ function About() {
           </div>
           <div className="about-right">
             <div className="about-para">
-              <p>  As passionate a Frontend Developer, I focus on building responsive, accessible, and user-centric web applications with attention to clean design and usability.</p>
+              <p>  As passionate a Full Stack Developer, I focus on building responsive, accessible, and user-centric web applications with attention to clean design and usability.</p>
 
 <p> I have a strong foundation in HTML, CSS, JavaScript, and React.js, and I enjoy creating interactive interfaces by transforming ideas into real, functional web experiences.</p>
 
