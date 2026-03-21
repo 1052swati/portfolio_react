@@ -61,22 +61,22 @@ const Footer = () => {
           © 2025 Swati Vagare. All rights reserved.
         </p>
 
-        <div className="footer-bottom-right">
+        {/* <div className="footer-bottom-right">
           <p onClick={()=> handleOpen("Terms of Service")}>📄Terms of Service</p>
           <p onClick={()=> handleOpen("Privacy Policy")}>🔐Privacy Policy</p>
 
           <a href="#contact" className="anchor-link">
             🌐Connect with me
           </a>
-        </div>
+        </div> */}
       </div>
 
-      {showModal && (
+      {/* {showModal && (
         <ComingSoon
           title={modalTitle}
           onClose={()=> setShowModal(false)}
         />
-      )}
+      )} */}
 
     </div>
   )
