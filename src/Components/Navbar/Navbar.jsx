@@ -4,13 +4,11 @@ import logo from '../../assets/icon_img.jpeg'
 import underline from '../../assets/nav_underline.svg'
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
-import { useNavigate } from "react-router-dom"
 
 const Navbar = () => {
 
   const [menu, setMenu] = useState("home")
   const menuRef = useRef()
-   const navigate = useNavigate()
 
   const openMenu = () => {
     menuRef.current.style.right = "0"
@@ -76,18 +74,10 @@ const Navbar = () => {
 
       </ul>
 
-      {/* <div className="nav-connect">
+      <div className="nav-connect">
         <a className="nav-class" href="#contact">
           Connect with me
         </a>
-      </div> */}
-       <div className="nav-connect">
-        <button 
-          className="nav-class"
-          onClick={() => navigate("/login")}
-        >
-          Connect with me
-        </button>
       </div>
 
     </div>
